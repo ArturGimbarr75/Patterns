@@ -6,7 +6,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            CreationalPatterns.FactoryMethod.EntryPoint.TestPattern();
+            CreationalPatterns.AbstractFactory.EntryPoint.TestPattern();
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Patterns.CreationalPatterns.FactoryMethod
+namespace Patterns.CreationalPatterns.AbstractFactory
 {
     class McDonaldsBurger : Food { }
     class McDonaldsDrink : Food { }
