@@ -15,6 +15,8 @@ namespace Patterns
             Console.WriteLine();
             CreationalPatterns.Singleton.EntryPoint.TestPattern();
             Console.WriteLine();
+            CreationalPatterns.Builder.EntryPoint.TestPattern();
+            Console.WriteLine();
         }
     }
 }
