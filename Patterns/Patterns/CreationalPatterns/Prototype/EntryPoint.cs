@@ -9,7 +9,7 @@ namespace Patterns.CreationalPatterns.Prototype
         public static void TestPattern()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Prototype\n");
+            Console.WriteLine("Prototype");
             Console.ResetColor();
 
             Circle circle = new Circle(0, 1, 5);

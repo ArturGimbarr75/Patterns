@@ -9,7 +9,7 @@ namespace Patterns.CreationalPatterns.AbstractFactory
         public static void TestPattern()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Abstract method\n");
+            Console.WriteLine("Abstract method");
             Console.ResetColor();
 
             IFactory mcdonalds = new McDonaldsFactory();

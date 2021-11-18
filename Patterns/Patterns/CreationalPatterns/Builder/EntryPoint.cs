@@ -9,7 +9,7 @@ namespace Patterns.CreationalPatterns.Builder
         public static void TestPattern()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Builder\n");
+            Console.WriteLine("Builder");
             Console.ResetColor();
 
             Director director = new Director();

@@ -9,7 +9,7 @@ namespace Patterns.CreationalPatterns.Singleton
         public static void TestPattern()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Singleton\n");
+            Console.WriteLine("Singleton");
             Console.ResetColor();
 
             GlobalSettings s1 = GlobalSettings.GetInstance();

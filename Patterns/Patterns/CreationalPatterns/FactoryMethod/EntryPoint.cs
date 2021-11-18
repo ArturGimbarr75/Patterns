@@ -9,7 +9,7 @@ namespace Patterns.CreationalPatterns.FactoryMethod
         public static void TestPattern()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Factory method\n");
+            Console.WriteLine("Factory method");
             Console.ResetColor();
 
             Test(new SwordsmanCreator());

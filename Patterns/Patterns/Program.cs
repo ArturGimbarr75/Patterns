@@ -7,6 +7,7 @@ namespace Patterns
         static void Main(string[] args)
         {           
             Creational();
+            Structural();
         }
 
         static void Creational()
@@ -25,6 +26,15 @@ namespace Patterns
             Console.WriteLine();
             CreationalPatterns.Prototype.EntryPoint.TestPattern();
             Console.WriteLine();
+        }
+
+        static void Structural()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Structural patterns\n");
+            Console.ResetColor();
+
+            StructuralPatterns.Adapter.EntryPoint.TestPattern();
         }
     }
 }
