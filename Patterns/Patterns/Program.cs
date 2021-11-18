@@ -17,6 +17,8 @@ namespace Patterns
 
             CreationalPatterns.AbstractFactory.EntryPoint.TestPattern();
             Console.WriteLine();
+            CreationalPatterns.FactoryMethod.EntryPoint.TestPattern();
+            Console.WriteLine();
             CreationalPatterns.Singleton.EntryPoint.TestPattern();
             Console.WriteLine();
             CreationalPatterns.Builder.EntryPoint.TestPattern();
