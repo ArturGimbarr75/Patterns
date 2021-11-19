@@ -35,6 +35,8 @@ namespace Patterns
             Console.ResetColor();
 
             StructuralPatterns.Adapter.EntryPoint.TestPattern();
+            Console.WriteLine();
+            StructuralPatterns.Bridge.EntryPoint.TestPattern();
         }
     }
 }
